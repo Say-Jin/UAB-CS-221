@@ -1,16 +1,21 @@
 h1{
     font-family: fantasy;
     color: plum;
+    font-size: 3em;
 }
 
 p{
+    padding: 2px;
     font-family: fantasy;
-    color:rgb(251, 188, 251)
+    color:rgb(251, 188, 251);
 
 }
 
 a{
+    text-decoration: plum;
     font-family: fantasy;
+    padding: 2px;
+    margin: 2em;
 
 }
 
