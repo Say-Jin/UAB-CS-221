@@ -5,7 +5,15 @@ h1{
     font-size: 3em;
 }
 
+h2{
+    font-family: fantasy;
+    color: plum;
+    font-size: 3em;
+}
+
+
 p{
+    font-size: 26px;
     padding: 2px;
     font-family: fantasy;
     color:rgb(251, 188, 251);
@@ -13,6 +21,7 @@ p{
 }
 
 a{
+    font-size: 28px;
     text-decoration: plum;
     font-family: fantasy;
     padding: 2px;
@@ -31,6 +40,7 @@ body{
     background-color: rgb(4, 119, 176);
 }
 header{
+
     padding: 1px;
     background-color: blueviolet;
     width: 100%;
