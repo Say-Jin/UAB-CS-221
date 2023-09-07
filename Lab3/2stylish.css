@@ -23,7 +23,9 @@ a{
 }
 
 footer{
+    position: static;
     font-family: fantasy;
+    background-color: rgb(250, 199, 71);
 
 }
 
