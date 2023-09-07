@@ -22,10 +22,16 @@ a{
 
 footer{
     font-family: fantasy;
+    background-color: transparent;
 
 }
 
 body{
     font-family: fantasy;
     background-color: rgb(4, 119, 176);
+}
+header{
+    padding: 1px;
+    background-color: blueviolet;
+    width: 100%;
 }
