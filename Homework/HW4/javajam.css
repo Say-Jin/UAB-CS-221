@@ -1,3 +1,4 @@
+
 body{
     background-color: #fcebb6;
     color: #221811;
@@ -8,6 +9,7 @@ header {
     background-color: #d2b48c;
 }
 h1{
+    font-family: Lobster;
     line-height: 200%;
 }
 h2{
@@ -23,3 +25,12 @@ footer{
     font-style: italic;
     text-align: center;
 }
+#wrapper {
+    width: 80%;
+    background-color: #fcebb6;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*sites used
+https://blog.hubspot.com/website/css-id
+https://www.dofactory.com/html/div/id*/
