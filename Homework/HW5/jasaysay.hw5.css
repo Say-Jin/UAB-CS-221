@@ -6,14 +6,18 @@ box-sizing: border-box;
 header {
     position: sticky;
     top: 0px;
+    background-color: rgb(205, 167, 241);
 }
 main {
     width: 80%;
     position: center;
+    border:  80px;
+    background-color: rgb(181, 109, 248);
 }
 footer{
     position: fixed;
     bottom: 0px;
+    background-color: rgb(148, 39, 250);
 }
 p {
     padding: 1em, 1em, 1em;
