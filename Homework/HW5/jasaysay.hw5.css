@@ -7,17 +7,23 @@ header {
     position: sticky;
     top: 0px;
     background-color: rgb(205, 167, 241);
+    margin: 2px;
+    padding: 10px;
 }
 main {
     width: 80%;
     position: center;
-    border:  80px;
-    background-color: rgb(181, 109, 248);
+    border:  80px rgb(245, 44, 245);
+    background-color: rgb(181, 105, 253);
+    margin: 2px;
+    padding: 20px;
 }
 footer{
     position: fixed;
     bottom: 0px;
-    background-color: rgb(148, 39, 250);
+    background-color: rgb(132, 0, 255);
+    margin: 5px;
+    padding: 5px;
 }
 p {
     padding: 1em, 1em, 1em;
