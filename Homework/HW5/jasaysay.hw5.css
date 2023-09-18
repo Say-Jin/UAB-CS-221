@@ -1,0 +1,19 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+header {
+    position: sticky;
+    top: 0px;
+main{
+    width: 80%;
+    position: center;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+}
+p {
+    padding: 1em, 1em, 1em;
+}
