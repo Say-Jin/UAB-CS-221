@@ -41,4 +41,13 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 70px;
+    padding-top: 25px;
+}
+
+nav a {
+    color: rgb(193, 234, 250);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
 }
