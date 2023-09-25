@@ -21,7 +21,7 @@ header {
     grid-template-columns: 150px 150px 150px;
     grid-template-rows: 150px 150px 150px;
 }
-header::after{
+header::after {
     content: '';
     display: table;
     clear: both;
@@ -29,7 +29,7 @@ header::after{
 nav {
     float: right;
 }
-.nav{
+.nav {
     width: 80%;
     margin: 0 auto;
 }
@@ -51,8 +51,22 @@ nav a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
 }
-footer{
+footer {
     display: flex;
     background-color: rgb(39, 39, 39);
     color: rgb(175, 253, 227);
+}
+.grid-item1 {
+}
+.grid-item2 {
+    
+}
+.grid-item3 {
+    
+}
+.grid-item4 {
+    
+}
+.grid-item5 {
+    
 }
