@@ -17,6 +17,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: rgb(154, 140, 243);
 }
 .grid-container {
     display: grid;
@@ -73,4 +74,7 @@ footer {
 }
 .grid-item5 {
     grid-area: 6 / 6 / span 4;
+}
+body{
+    background-color: rgb(154, 140, 243);
 }
