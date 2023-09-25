@@ -30,7 +30,64 @@ p{
 
 }
 .grid-item1 {
+    border-radius: 25px;
     background-color: chartreuse;
+    text-align: center;
+    border: 1px solid;
+    /*grid-column: 1 / span 3;*/
+}
+.grid-item2 {
+    border-radius: 25px;
+    background-color: chocolate;
+    text-align: center;
+    border: 1px solid;
+    /*grid-column: 1 / span 3;*/
+}
+.grid-item3 {
+    border-radius: 25px;
+    background-color: chocolate;
+    text-align: center;
+    border: 1px solid;
+    /*grid-column: 1 / span 3;*/
+}
+.grid-item4 {
+    border-radius: 25px;
+    background-color: chocolate;
+    text-align: center;
+    border: 1px solid;
+    /*grid-column: 1 / span 3;*/
+}
+.grid-item5 {
+    border-radius: 25px;
+    background-color: chocolate;
+    text-align: center;
+    border: 1px solid;
+    /*grid-column: 1 / span 3;*/
+}
+.grid-item6 {
+    border-radius: 25px;
+    background-color: chocolate;
+    text-align: center;
+    border: 1px solid;
+    /*grid-column: 1 / span 3;*/
+}
+.grid-item7 {
+    border-radius: 25px;
+    background-color: chocolate;
+    text-align: center;
+    border: 1px solid;
+    /*grid-column: 1 / span 3;*/
+}
+.grid-item8 {
+    border-radius: 25px;
+    background-color: chocolate;
+    text-align: center;
+    border: 1px solid;
+    /*grid-column: 1 / span 3;*/
+}
+.grid-item9 {
+    border-radius: 25px;
+    background-color: chocolate;
     text-align: center;
     border: 1px solid;
     /*grid-column: 1 / span 3;*/
