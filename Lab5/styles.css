@@ -69,5 +69,5 @@ footer {
     grid-area: 4 / span 2;
 }
 .grid-item5 {
-    grid-area: 6 / 6;
+    grid-area: 6 / 6 / span 4;
 }
