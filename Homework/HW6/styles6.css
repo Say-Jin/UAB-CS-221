@@ -16,7 +16,16 @@ p{
     background-color: blueviolet;
     color: aquamarine;
 }
+/*https://youtu.be/47WMoAfwfkU*/
+.grid-container > div {
+    padding: 10px;
+    background-color: rgb(187, 129, 241);
+}
 .grid-container{
     display: grid;
-    
+    grid-gap: 10px;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    /*justify-content: space-around;*/
+
 }
