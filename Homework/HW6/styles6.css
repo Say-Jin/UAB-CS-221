@@ -30,8 +30,10 @@ p{
 
 }
 .grid-item1 {
-    grid-column: span;
     background-color: chartreuse;
+    text-align: center;
+    border: 1px solid;
+    /*grid-column: 1 / span 3;*/
 }
 body{
     background-color: rgb(43, 13, 1);
