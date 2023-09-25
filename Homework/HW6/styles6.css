@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 p{
-    color: blueviolet;
+    color: aquamarine;
 }
 .flex-container {
     display: flex;
@@ -28,4 +28,17 @@ p{
     grid-template-rows: 150px 150px 150px;
     /*justify-content: space-around;*/
 
+}
+.grid-item1 {
+    grid-column: span;
+    background-color: chartreuse;
+}
+body{
+    background-color: rgb(43, 13, 1);
+}
+header{
+    color: aquamarine;
+}
+footer{
+    color: aquamarine;
 }
