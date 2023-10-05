@@ -7,6 +7,10 @@ header {
     color: rgb(166,157,220);
 }
 
+nav a {
+    text-decoration: none;
+}
+
 .nav {
     text-align: right;
     word-spacing: 8px;
