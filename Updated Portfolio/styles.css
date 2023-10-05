@@ -1,7 +1,38 @@
-header {
-    text-align: center;
-    color: darkviolet;
+* {
+    margin: 0px;
+    padding: 0px;
 }
+header {
+    text-align: left;
+    color: rgb(166,157,220);
+}
+
+.nav {
+    text-align: right;
+    word-spacing: 8px;
+    /*font-style: normal;*/
+    text-decoration: none;
+    pointer-events: none;
+}
+
 .flexbox {
-    
+
+}
+
+header {
+    background-color: rgb(185,29,132);
+}
+main {
+    background-color: rgb(161,23,126);
+}
+
+body {
+    font-family: 'Press Start 2P';font-size: 22px;
+    /* https://www.w3schools.com/howto/tryit.asp?font=Press%20Start%202P*/
+}
+
+footer {
+    font-size: 12px;
+    background-color: rgb(132,84,108);
+    color: rgb(166,157,220);
 }
