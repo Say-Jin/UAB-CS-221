@@ -12,7 +12,6 @@ header {
     word-spacing: 8px;
     /*font-style: normal;*/
     text-decoration: none;
-    pointer-events: none;
 }
 
 .flexbox {
