@@ -1,28 +1,38 @@
+/* GENERAL */
+
+/*@import url();*/
+/*https://www.youtube.com/watch?v=ldwlOzRvYOU */
+
 * {
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    font-family: 'Press Start 2P';font-size: 22px;
+    /* https://www.w3schools.com/howto/tryit.asp?font=Press%20Start%202P*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     text-align: left;
     color: rgb(166,157,220);
 }
 
-nav a {
-    text-decoration: none;
-    color: rgb(166,157,220);
-}
-
-.desktop-nav {
+/*.desktop-nav {
     text-align: right;
     word-spacing: 8px;
     /*font-style: normal;*/
-    text-decoration: none;
-}
+    /*text-decoration: none;
+}*/
 
-.desktop-nav ul {
+/*.desktop-nav ul {
     display: inline;
     padding: 20px;
-}
+}*/
 
 .flexbox {
 
@@ -35,13 +45,48 @@ main {
     background-color: rgb(161,23,126);
 }
 
-body {
-    font-family: 'Press Start 2P';font-size: 22px;
-    /* https://www.w3schools.com/howto/tryit.asp?font=Press%20Start%202P*/
-}
-
 footer {
     font-size: 12px;
     background-color: rgb(132,84,108);
     color: rgb(166,157,220);
+}
+
+/* TRANSITION */
+
+a,
+.btn {
+    transition: all 300ms ease;
+}
+
+/* DESKTOP NAV */
+
+nav, nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links li{
+    display: inline-block;
+    gap: 3rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: rgb(166,157,220);
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: rgb(245, 245, 248);
+}
+
+.logo {
+    font-size: 2rem;
 }
