@@ -15,15 +15,31 @@
                 <div class="logo">Say Davis</div>
                 <div>
                     <ul class="nav-links">
-                        <li><a style="text-decoration:none" href="#mainpage">Home</a></li>
-                        <li><a style="text-decoration:none" href="#aboutme">About</a></li>
-                        <li><a style="text-decoration:none" href="#projects">Projects</a></li>
-                        <li><a style="text-decoration:none" href="#contacts">Contacts</a></li>
-                        <li><a style="text-decoration:none" href="#others">Others</a></li>
+                        <li><a href="#mainpage">Home</a></li>
+                        <li><a href="#aboutme">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                        <li><a href="#others">Others</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
+        <nav id="hamburger-nav"></nav>
+        <div class="logo">Say Davis</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#mainpage" onclick="toggleMenu()">Home</a></li>
+                        <li><a href="#aboutme" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                        <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+                        <li><a href="#others" onclick="toggleMenu()">Others</a></li>
+            </div>
+        </div>
         <main class="flexbox">
             <ul>
                 <li></li>
