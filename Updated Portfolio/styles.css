@@ -12,14 +12,14 @@ nav a {
     color: rgb(166,157,220);
 }
 
-.nav {
+.desktop-nav {
     text-align: right;
     word-spacing: 8px;
     /*font-style: normal;*/
     text-decoration: none;
 }
 
-.nav ul {
+.desktop-nav ul {
     display: inline;
     padding: 20px;
 }
