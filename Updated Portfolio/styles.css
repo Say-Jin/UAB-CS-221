@@ -215,6 +215,7 @@ section {
 }
 
 .title {
+    color: rgb(148, 130, 248);
     font-size: 3rem;
     text-align: center;
 }
@@ -227,10 +228,6 @@ section {
 }
 
 p {
-    color: rgb(148, 130, 248);
-}
-
-.title {
     color: rgb(148, 130, 248);
 }
 
