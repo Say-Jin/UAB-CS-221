@@ -9,6 +9,7 @@ header {
 
 nav a {
     text-decoration: none;
+    color: rgb(166,157,220);
 }
 
 .nav {
@@ -16,6 +17,11 @@ nav a {
     word-spacing: 8px;
     /*font-style: normal;*/
     text-decoration: none;
+}
+
+.nav ul {
+    display: inline;
+    padding: 20px;
 }
 
 .flexbox {
