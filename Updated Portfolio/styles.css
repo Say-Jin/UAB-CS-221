@@ -160,7 +160,7 @@ a:hover {
 }
 
 .hamburger-icon span:first-child {
-    opacity 1;
+    opacity: 1;
 }
 
 .hamburger-icon span:first-child {
@@ -287,3 +287,8 @@ p {
     gap: 1rem;
 }
 
+/* ABOUT ME SECTION*/
+
+h3 {
+    color: rgb(148, 130, 248);
+}
