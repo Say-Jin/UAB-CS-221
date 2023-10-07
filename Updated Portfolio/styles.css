@@ -39,11 +39,11 @@ main {
     background-color: rgb(161,23,126);
 }
 
-footer {
+/*footer {
     font-size: 12px;
     background-color: rgb(132,84,108);
     color: rgb(166,157,220);
-}
+}*/
 
 /* TRANSITION */
 
@@ -449,3 +449,14 @@ article .icon {
 
 /* FOOTER */
 
+footer {
+    height: 26vh;
+    /*margin: 0 1rem;*/
+    font-size: 12px;
+    background-color: rgb(132,84,108);
+    color: rgb(166,157,220);
+}
+
+footer p {
+    text-align: center;
+}
