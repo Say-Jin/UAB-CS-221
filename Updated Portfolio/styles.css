@@ -389,9 +389,9 @@ article .icon {
     position: relative;
 }
 
-/*.color-container {
-
-}*/
+.color-container {
+border-color:  #ee7cb9;
+}
 
 .project-img {
     border-radius: 2rem;
