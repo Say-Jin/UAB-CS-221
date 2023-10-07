@@ -385,5 +385,25 @@ article .icon {
 
 /* PROJECTS SECTION */
 
+#projects {
+    position: relative;
+}
 
+/*.color-container {
+
+}*/
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+}
+
+/*.project-btn {
+
+}*/
 
