@@ -6,3 +6,16 @@
 header {
     background-color: rgb(172, 172, 172);
 }
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.nav-links li{
+    display: inline-block;
+    gap: 3rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
