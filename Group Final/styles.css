@@ -2,3 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: rgb(172, 172, 172);
+}
