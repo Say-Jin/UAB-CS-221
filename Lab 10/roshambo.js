@@ -1,3 +1,5 @@
+//I prompted chat gpt with, rock, paper, scissors game in javascript with user interactions and result display. Here are the results
+
 const choices = ['rock', 'paper', 'scissors'];
 
     function computerChoice() {

@@ -30,3 +30,9 @@ button {
     background-color: rgb(58, 153, 58);
     color: white;
 }
+
+#result {
+    margin-top: 20px;
+    color: yellow;
+    font-size: 20px;
+}
