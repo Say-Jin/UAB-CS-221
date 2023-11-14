@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 40vh;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20%;
+    border-style: none;
+    font-family: 'Press Start 2P';
+}
+
+#rock {
+    background-color: rgb(252, 112, 112);
+    color: white;
+    font-family: 'Press Start 2P';
+}
+
+#paper {
+    background-color: rgb(90, 90, 241);
+    color: white;
+    font-family: 'Press Start 2P';
+}
+
+#scissors {
+    background-color: rgb(58, 153, 58);
+    color: white;
+    font-family: 'Press Start 2P';
+}
+
+#result {
+    margin-top: 20px;
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Press Start 2P';
+}
