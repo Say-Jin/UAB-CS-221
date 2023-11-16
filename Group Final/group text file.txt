@@ -1,5 +1,5 @@
 Colors
-
+Background color: R-168 G-168 C-255
 Camelot 12:
 Camelot 11:
 Camelot 10:
