@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(168, 168, 255);
+}
 * {
     margin: 0;
     padding: 0;
@@ -6,13 +9,27 @@
 header {
     background-color: rgb(172, 172, 172);
 }
-
+.headlogo{
+    text-align: center;
+    font-size: 500%;
+    font-weight: bolder;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55%;
+    width: 35%;
+}
 nav {
     justify-content: space-around;
     align-items: center;
+    text-align: center;
     height: 15vh;
 }
-
+nav li:hover{
+    background-color: beige;
+}
 .navy li{
     display: inline-block;
     gap: 3rem;
@@ -23,4 +40,72 @@ nav {
 .headlogo {
     border-radius: 50%;
     height: 20px;
+}
+.about-container p{
+    text-align: center;
+    font-weight: bold;
+}
+.vibes-container p{
+    text-align: center;
+    font-weight: bold;
+}
+.contacts-container h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 300%;
+    text-decoration: underline;
+}
+.contacts-container{
+    text-align: center;
+}
+.contacts-container a:hover{
+    background-color: antiquewhite;    
+}
+.camelot12 h2{
+    text-align: center;
+    font-size: 400%;
+}
+.camelot11 h2{
+    text-align: center;
+    font-size: 400%;
+}
+.camelot10 h2{
+    text-align: center;
+    font-size: 400%;
+}
+.camelot9 h2{
+    text-align: center;
+    font-size: 400%;
+}
+.camelot8 h2{
+    text-align: center;
+    font-size: 400%;
+}
+.camelot7 h2{
+    text-align: center;
+    font-size: 400%;
+}
+.camelot6 h2{
+    text-align: center;
+    font-size: 400%;
+}
+.camelot5 h2{
+    text-align: center;
+    font-size: 400%;
+}
+.camelot4 h2{
+    text-align: center;
+    font-size: 400%;
+}
+.camelot3 h2{
+    text-align: center;
+    font-size: 400%;
+}
+.camelot2 h2{
+    text-align: center;
+    font-size: 400%;
+}
+.camelot1 h2{
+    text-align: center;
+    font-size: 400%;
 }
