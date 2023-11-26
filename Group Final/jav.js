@@ -1,23 +1,30 @@
 const spotifyButtons = document.querySelectorAll(".spotifyButton");
 const colorText = document.querySelector("#ColorText");
 const foodText = document.querySelector("#FoodText");
+var playButton = document.getElementById('playButton');
+var counterElement = document.getElementById('counter');
 let user;
-var count = 0;
+var songs = 5;
+var count = 5;
 var camelotCounter = 0;
 var avgCamelot;
 var addUpCamelot = 0;
 var color;
+
 spotifyButtons.forEach(button => button.addEventListener("click", () => {
     user = button.textContent;
-    count += 1;
+    count -= 1;
     convertButtonToNumber();
     addUpCamelot += convertButtonToNumber();
-    if(count < 5){
+    if(count > 0){
+        songs--;
+        counterElement.textContent = songs;
         return;   }
-    else if (count == 5){
+    else if (count == 0){
         avgCamelot = addUpCamelot /5
         colorText.textContent = "Color: " + colorPicker();
         foodText.textContent = "Based on your color, your food recommendation is: " + foodPicker();
+        counterElement.textContent = "Your results are below";
     } else{
         return;
     }
