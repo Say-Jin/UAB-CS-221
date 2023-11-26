@@ -49,18 +49,6 @@ nav li:hover{
     text-align: center;
     font-weight: bold;
 }
-.contacts-container h2{
-    text-align: center;
-    font-weight: bold;
-    font-size: 300%;
-    text-decoration: underline;
-}
-.contacts-container{
-    text-align: center;
-}
-.contacts-container a:hover{
-    background-color: antiquewhite;    
-}
 .camelot12 h2{
     text-align: center;
     font-size: 400%;
@@ -108,4 +96,21 @@ nav li:hover{
 .camelot1 h2{
     text-align: center;
     font-size: 400%;
+}
+.contacts-container h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 300%;
+    text-decoration: underline;
+}
+.contacts-container{
+    text-align: center;
+}
+.contacts-container a:hover{
+    background-color: antiquewhite;    
+}
+.playlist-container h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 300%;
 }
