@@ -147,3 +147,6 @@ nav li:hover{
     font-weight: bold;
     font-size: 300%;
 }
+a{
+    margin: 30px;
+}
