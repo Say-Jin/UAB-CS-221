@@ -208,3 +208,23 @@ function foodPicker(){
         }
         }
     }
+    var drop = document.getElementsByClassName("collapsible");
+    var i;
+    
+    
+    for (i = 0; i < drop.length; i++) {
+        drop[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        };
+        if (content.style.display === "flex") {
+            content.style.display = "none", content.style.overflow = "hidden";
+          } else {
+            content.style.display = "flex", content.style.overflow = "visible", content.style.position = "relative";
+        }
+    });
+    }
