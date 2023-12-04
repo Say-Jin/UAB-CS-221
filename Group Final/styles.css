@@ -5,6 +5,10 @@ body{
     margin: auto;
     padding: 0;
 }
+.image{
+    width: 900px;
+    height: 500px;
+}
 p{
     margin-bottom: 20px;
 }
@@ -40,8 +44,11 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 55%;
-    width: 35%;
+    height: 50%;
+    width: 50%;
+}
+.image:hover{
+    scale: 1.2;
 }
 nav {
     justify-content: space-around;
@@ -66,6 +73,10 @@ nav li:hover{
 .about-container p{
     text-align: center;
     font-weight: bold;
+}
+.vibes{
+    background-color: rgb(172, 172, 172);
+
 }
 .vibes-container p{
     text-align: center;
