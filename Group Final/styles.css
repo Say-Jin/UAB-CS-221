@@ -150,3 +150,53 @@ nav li:hover{
 a{
     margin: 30px;
 }
+.collapsible {
+    background-color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border:#444;
+    text-align: Center;
+    outline:auto;
+    outline-offset: -2px;
+    font-size: 30px;
+    font-family: "Fiktion";
+    display: flex;
+    justify-content: center;
+    border-radius: .5rem;
+    align-items: center;
+}
+
+
+.collapsible:after {
+    content: '\02795';
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+}
+
+
+.active:after {
+    content: "\2796";
+}
+
+
+
+
+.active, .collapsible:hover {
+  background-color: transparent;
+}
+
+
+.dropdown-content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: transparent;
+    transition: 1.5s ease-in-out;
+    flex-wrap: wrap;
+    justify-content: start;
+    position:absolute;
+    margin: 10px 20px;
+}
+
