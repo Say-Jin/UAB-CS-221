@@ -1,6 +1,7 @@
 const spotifyButtons = document.querySelectorAll(".spotifyButton");
 const colorText = document.querySelector("#ColorText");
 const foodText = document.querySelector("#FoodText");
+const dropbtn = document.querySelector('.dropbtn');
 var playButton = document.getElementById('playButton');
 var counterElement = document.getElementById('counter');
 let user;
@@ -10,6 +11,7 @@ var camelotCounter = 0;
 var avgCamelot;
 var addUpCamelot = 0;
 var color;
+
 
 spotifyButtons.forEach(button => button.addEventListener("click", () => {
     user = button.textContent;
@@ -30,29 +32,29 @@ spotifyButtons.forEach(button => button.addEventListener("click", () => {
     }
 }))
 function convertButtonToNumber(){
-    if(user == "Save Song from Camelot 12"){
+    if(user == "Save Song C12"){
         return 12;    
-    }else if(user == "Save Song from Camelot 11"){
+    }else if(user == "Save Song C11"){
         return 11;
-    }else if(user == "Save Song from Camelot 10"){
+    }else if(user == "Save Song C10"){
         return 10;   
-    }else if(user == "Save Song from Camelot 9"){
+    }else if(user == "Save Song C9"){
         return 9;   
-    }else if(user == "Save Song from Camelot 8"){
+    }else if(user == "Save Song C8"){
         return 8;   
-    }else if(user == "Save Song from Camelot 7"){
+    }else if(user == "Save Song C7"){
         return 7;   
-    }else if(user == "Save Song from Camelot 6"){
+    }else if(user == "Save Song C6"){
         return 6;   
-    }else if(user == "Save Song from Camelot 5"){
+    }else if(user == "Save Song C5"){
         return 5;   
-    }else if(user == "Save Song from Camelot 4"){
+    }else if(user == "Save Song C4"){
         return 4;   
-    }else if(user == "Save Song from Camelot 3"){
+    }else if(user == "Save Song C3"){
         return 3;   
-    }else if(user == "Save Song from Camelot 2"){
+    }else if(user == "Save Song C2"){
         return 2;   
-    }else if(user == "Save Song from Camelot 1"){
+    }else if(user == "Save Song C1"){
         return 1;   
     }
 
@@ -208,23 +210,24 @@ function foodPicker(){
         }
         }
     }
-    var drop = document.getElementsByClassName("collapsible");
-    var i;
-    
-    
-    for (i = 0; i < drop.length; i++) {
-        drop[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight){
-            content.style.maxHeight = null;
-        } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-        };
-        if (content.style.display === "flex") {
-            content.style.display = "none", content.style.overflow = "hidden";
-          } else {
-            content.style.display = "flex", content.style.overflow = "visible", content.style.position = "relative";
-        }
-    });
+
+
+var drop = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < drop.length; i++) {
+    drop[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+        content.style.maxHeight = null;
+    } else {
+        content.style.maxHeight = "none";
+    }; 
+    if (content.style.display === "flex") {
+        content.style.display = "none", content.style.overflow = "hidden";
+      } else {
+        content.style.display = "flex", content.style.overflow = "visible", content.style.position = "relative";
     }
+});
+}
