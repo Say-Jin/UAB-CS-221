@@ -1,3 +1,4 @@
+// Global Declarations
 const spotifyButtons = document.querySelectorAll(".spotifyButton");
 const colorText = document.querySelector("#ColorText");
 const foodText = document.querySelector("#FoodText");
@@ -12,7 +13,8 @@ var avgCamelot;
 var addUpCamelot = 0;
 var color;
 
-
+// Add event listener for song selector buttons, subtracts one from total song allotment
+// Determine song value for result output
 spotifyButtons.forEach(button => button.addEventListener("click", () => {
     user = button.textContent;
     count -= 1;
@@ -25,12 +27,13 @@ spotifyButtons.forEach(button => button.addEventListener("click", () => {
     else if (count == 0){
         avgCamelot = addUpCamelot /5
         colorText.textContent = "Color: " + colorPicker();
-        foodText.textContent = "Based on your color, your food recommendation is: " + foodPicker();
+        foodText.textContent = "Based on your color, your food recommendation is: " + foodPicker(colorPicker());
         counterElement.textContent = "Your results are below";
     } else{
         return;
     }
 }))
+// Function numerically quantify song choices for result output
 function convertButtonToNumber(){
     if(user == "Save Song C12"){
         return 12;    
@@ -59,6 +62,7 @@ function convertButtonToNumber(){
     }
 
 }
+// Color quantify song choice for result output
 function colorPicker(){
     if(avgCamelot < 2){
         color = "Light Violet";
@@ -98,9 +102,11 @@ function colorPicker(){
         return color;
     }
 }
-function foodPicker(){
+// Food selection quantifier for result output
+function foodPicker(x){
+    var color1 = x;
     var computerChoice = Math.ceil(Math.random()*3);
-    if(color = "Light Violet"){
+    if(color1 == "Light Violet"){
         switch(computerChoice){
                 case 1:
                     return "Cauliflower Salad";
@@ -109,7 +115,7 @@ function foodPicker(){
                 case 3:
                     return "Taro Rolls";
         }
-        }else if(color = "Purple"){
+        }else if(color1 == "Purple"){
             switch(computerChoice){
                 case 1:
                     return "Grapes";
@@ -118,7 +124,7 @@ function foodPicker(){
                 case 3:
                     return "Raisins";
         }
-        }else if(color = "Blue"){
+        }else if(color1 == "Blue"){
             switch(computerChoice){
                 case 1:
                     return "Blueberries";
@@ -127,7 +133,7 @@ function foodPicker(){
                 case 3:
                     return "Blue Banana Squash";
         }
-        }else if(color = "Cerulean Blue"){
+        }else if(color1 == "Cerulean Blue"){
             switch(computerChoice){
                 case 1:
                     return "Macaroons";
@@ -136,7 +142,7 @@ function foodPicker(){
                 case 3:
                     return "Cornflowers";
         }
-        }else if(color = "Sky Blue"){
+        }else if(color1 == "Sky Blue"){
             switch(computerChoice){
                 case 1:
                     return "Blue Curled Scotch Kale";
@@ -145,7 +151,7 @@ function foodPicker(){
                 case 3:
                     return "Blue Pearmain Apples";
         }
-        }else if(color = "Jungle Green"){
+        }else if(color1 == "Jungle Green"){
             switch(computerChoice){
                 case 1:
                     return "Jungle Green Salad";
@@ -154,7 +160,7 @@ function foodPicker(){
                 case 3:
                     return "Cilantro-Jalapeno Hummus and Tabouli";
         }
-        }else if(color = "Green"){
+        }else if(color1 == "Green"){
             switch(computerChoice){
                 case 1:
                     return "Brocoli";
@@ -163,7 +169,7 @@ function foodPicker(){
                 case 3:
                     return "Spinach";
         }
-        }else if(color = "Lime Green"){
+        }else if(color1 == "Lime Green"){
             switch(computerChoice){
                 case 1:
                     return "Radish";
@@ -172,7 +178,7 @@ function foodPicker(){
                 case 3:
                     return "Cilantro-Lime Green Cabbage Slaw";
         }
-        }else if(color = "Yellow"){
+        }else if(color1 == "Yellow"){
             switch(computerChoice){
                 case 1:
                     return "Pineapple";
@@ -181,7 +187,7 @@ function foodPicker(){
                 case 3:
                     return "Squash";
         }
-        }else if(color = "Orange"){
+        }else if(color1 == "Orange"){
             switch(computerChoice){
                 case 1:
                     return "Pumpkin";
@@ -190,7 +196,7 @@ function foodPicker(){
                 case 3:
                     return "Mangos";
         }
-        }else if(color = "Tomato Red"){
+        }else if(color1 == "Tomato Red"){
             switch(computerChoice){
                 case 1:
                     return "Tomatoes";
@@ -199,7 +205,7 @@ function foodPicker(){
                 case 3:
                     return "Cucumber Tomato Red Onion Salad";
         }
-        }else if(color = "Red"){
+        }else if(color1 == "Red"){
             switch(computerChoice){
                 case 1:
                     return "Strawberries";
@@ -211,10 +217,13 @@ function foodPicker(){
         }
     }
 
-
+// Collapsible button variable declaration
 var drop = document.getElementsByClassName("collapsible");
 var i;
-
+// Event listener to drop down toggle buttons
+// Toggle active attribute for content onclick
+// Toggle height on active attribute
+// Toggle display mode on active
 for (i = 0; i < drop.length; i++) {
     drop[i].addEventListener("click", function() {
     this.classList.toggle("active");
